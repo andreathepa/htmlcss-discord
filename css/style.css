@@ -143,10 +143,10 @@
 /* 2ND - 4TH SECTION */
 
 
-.bluepink-section{
+.frog-section{
     background-color: rgb(255, 255, 255);
     height: 700px;
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
     margin-top: 130px;
 }
@@ -165,11 +165,11 @@
  .col-textfrog{
     height: 400px;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 140px;
  }
 
- .h1-black{
-        font-size: 50px;
+ .h2-black{
+        font-size: 60px;
         color: black;
  }
  .textfrog{
@@ -203,16 +203,41 @@
 
 
 /* 3RD SECTION */
-.grey-section{
-    background-color:lightgrey;
-    height: 500px;
+.wizard-section{
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 130px;
 }
 
-.row-reverse{
+.row-pink{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
+ }
+
+ .col-textwiz{
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 100px;
+ }
+
+ .wizimg{
+    margin-right: 50px;
+ }
+
+
+
+ .h2-black{
+        font-size: 60px;
+        color: black;
+ }
+ .textwiz{
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 20px;
+    color: black;
  }
 /* END 3RD SECTION */
 
