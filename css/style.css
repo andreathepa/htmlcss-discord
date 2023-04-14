@@ -71,7 +71,9 @@
 
 /* END HEADER  */
 
+
 /* JUMBOTRON */
+
 .jumbotron{
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
@@ -85,6 +87,8 @@
     width: 45%;
     margin: 0 auto;
  }
+
+ /* CONTENT JUMBO */
 
  .content{
         text-align: center;
@@ -123,6 +127,8 @@
     padding: 20px;
     font-size: 20px;
 }
+
+/* END CONTENT JUMBO */
 
 /* END JUMBOTRON */
 
