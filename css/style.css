@@ -232,25 +232,30 @@
  .h2-black{
         font-size: 60px;
         color: black;
+        text-align: center;
  }
- .textwiz{
+ .chilltext{
     font-size: 20px;
     line-height: 33px;
-    margin-top: 20px;
+    margin-top: 60px;
+    padding: 50px;
     color: black;
  }
 /* END 3RD SECTION */
 
+
+
+
 /* 5TH SECTION */
+
+.final{
+    margin-top: 70px;
+}
 .fgrey-section{
     background-color:lightgrey;
-    height: 900px;
-}
-
-.container-green{
-    max-width: 900px;
     margin: 0 auto;
 }
+
 
 .row-green{
     display: flex;
@@ -259,13 +264,10 @@
 
  }
 
- .col-green{
-    background-color: rgb(34, 139, 34);
-    height: 700px;
-    width: 100%;
-    border: 1px dashed black;
-    margin-top: 50px;
+ #chill{
+    background-size: contain;
  }
+
 /* END 5TH SECTION */
 
 /* FINAL SECTION */
