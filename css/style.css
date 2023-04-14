@@ -11,7 +11,7 @@
 
  /* HEADER */
  header{
-    background-color: rgba(49,97,224,255);
+    background-color: rgb(37, 94, 233);
     width: 100%;
     padding: 30px;
  }
@@ -38,6 +38,8 @@
 .col-accedi{
     background-color: white;
     border-radius: 31px;
+    width: 100px;
+    text-align: center;
     padding: 9px;
     color: black;
 }
@@ -71,21 +73,60 @@
 
 /* JUMBOTRON */
 .jumbotron{
-    background-color: rgb(32, 51, 218);
-}
-
-.jumbocontent{
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-    width: 100px;
+    padding: 100px; 
 }
 
-.container-pink{
-    max-width: 900px;
+
+ .col-pink{
+    height: 400px;
+    width: 45%;
     margin: 0 auto;
+ }
+
+ .content{
+        text-align: center;
+ }
+
+ h1{
+    font-size: 70px;
+ }
+ .toptext{
+    font-size: 20px;
+    margin-top: 80px;
+    line-height: 33px;
 }
+
+.bwbuttons{
+       display: flex;
+       justify-content: center;
+       margin-top: 25px;
+}
+
+.scarica{
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 31px;
+    padding: 20px;
+    width: 250px;
+    font-size: 20px;
+    color: black;
+}
+
+.browser{
+    margin-left: 10px;
+    width: 350px;
+    background-color: black;
+    border-radius: 31px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* END JUMBOTRON */
+
+/* 2ND - 4TH SECTION */
 
 .row-pink{
     display: flex;
@@ -93,17 +134,6 @@
     align-items: center;
 
  }
-
- .col-pink{
-    background-color: rgb(238, 130, 238);
-    height: 400px;
-    width: 80%;
-    border: 1px dashed black;
-    margin-top: 50px;
- }
-/* END JUMBOTRON */
-
-/* 2ND - 4TH SECTION */
 
 .bluepink-section{
     background-color: rgb(255, 255, 255);
