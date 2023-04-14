@@ -97,6 +97,7 @@
  h1{
     font-size: 70px;
  }
+
  .toptext{
     font-size: 20px;
     margin-top: 80px;
@@ -132,37 +133,74 @@
 
 /* END JUMBOTRON */
 
+
+
+
+
+
+
+
 /* 2ND - 4TH SECTION */
+
+
+.bluepink-section{
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
 
 .row-pink{
     display: flex;
     justify-content: center;
     align-items: center;
-
  }
 
-.bluepink-section{
-    background-color: rgb(255, 255, 255);
-    height: 500px;
-}
+
+ .frogimg{
+    margin-right: 50px;
+ }
+
+ .col-textfrog{
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 20px;
+ }
+
+ .h1-black{
+        font-size: 50px;
+        color: black;
+ }
+ .textfrog{
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 20px;
+    color: black;
+ }
+
+/* END 2ND - 4TH SECTION */
+
+
 
 .col-pinky{
     background-color: pink;
     height: 400px;
-    width: 40%;
-    border: 1px dashed black;
+    width: calc(40%);
+    border-style: dotted;
     margin-top: 50px;
  }
 
  .col-blue{
     background-color: lightblue;
     height: 400px;
-    width: 60%;
+    width: 20%;
     border: 1px dashed black;
     margin-top: 50px;
  }
 
-/* END 2ND - 4TH SECTION */
+
+
 
 /* 3RD SECTION */
 .grey-section{
