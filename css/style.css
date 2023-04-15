@@ -78,13 +78,14 @@
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px; 
+    padding: 80px;
+    height: 550px; 
 }
 
 
  .col-pink{
     height: 400px;
-    width: 45%;
+    width: 50%;
     margin: 0 auto;
  }
 
@@ -95,12 +96,12 @@
  }
 
  h1{
-    font-size: 70px;
+    font-size: 60px;
  }
 
  .toptext{
     font-size: 20px;
-    margin-top: 80px;
+    margin-top: 50px;
     line-height: 33px;
 }
 
@@ -164,14 +165,10 @@
 
  .col-textfrog{
     height: 400px;
-    margin-top: 50px;
     margin-left: 140px;
  }
 
- .h2-black{
-        font-size: 60px;
-        color: black;
- }
+
  .textfrog{
     font-size: 20px;
     line-height: 33px;
@@ -203,8 +200,13 @@
 
 
 /* 3RD SECTION */
+
+.third{
+    background-color: lightgray;
+    padding: 5px;
+}
 .wizard-section{
-    background-color: rgb(255, 255, 255);
+    background-color: lightgray;
     height: 700px;
     max-width: 1300px;
     margin: 0 auto;
@@ -227,20 +229,19 @@
     margin-right: 50px;
  }
 
+ .textwiz{
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 20px;
+    color: black;
+ }
 
 
  .h2-black{
         font-size: 60px;
         color: black;
-        text-align: center;
  }
- .chilltext{
-    font-size: 20px;
-    line-height: 33px;
-    margin-top: 60px;
-    padding: 50px;
-    color: black;
- }
+
 /* END 3RD SECTION */
 
 
@@ -254,6 +255,13 @@
 .fgrey-section{
     background-color:lightgrey;
     margin: 0 auto;
+    padding: 100px;
+}
+
+#h2-final{
+    font-size: 60px;
+    color: black;
+    text-align: center;
 }
 
 
@@ -266,7 +274,52 @@
 
  #chill{
     background-size: contain;
+    width: 1400px;
  }
+
+ .chilltext{
+    font-size: 20px;
+    line-height: 33px;
+    padding: 50px;
+    color: black;
+    text-align: center;
+ }
+
+.h4{
+    text-align: center;
+    font-size: 33px;
+    color: rgb(34, 38, 41);
+}
+
+#avventura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pronto{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 640px;
+    padding: 40px;
+}
+
+.con-avv{
+    height: 100px;
+}
+
+.scaricablu{
+    margin-right: 20px;
+    background-color: rgb(142, 161, 225);
+    border-radius: 31px;
+    padding: 20px;
+    width: 250px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    color: white;
+}
+
 
 /* END 5TH SECTION */
 
