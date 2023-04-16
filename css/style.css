@@ -328,10 +328,11 @@
 .dark-section{
     background-color: rgb(78, 77, 77);
     height: 450px;
+    padding: 100px;
 }
 
 .container-dark{
-    max-width: 900px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -343,20 +344,49 @@
  }
 
  .col-tomato{
-    background-color: tomato;
     height: 400px;
     width: 30%;
-    border: 1px dashed black;
     margin-top: 20px;
+}
+
+ ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+ h5{
+    color: #7289DA;
+    font-size: 20px;
  }
 
  .col-torquoise{
-    background-color: turquoise;
     height: 400px;
     width: 17%;
-    border: 1px dashed white;
     margin-top: 20px;
+    line-height: 40px;
  }
+
+
+ h3{
+    font-size: 40px;
+    color: #7289DA;
+ }
+ #ita{
+    width: 25px;
+ }
+
+#italiano{
+    margin-top: 20px;
+}
+
+#loghini{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+
 
 /* END FINAL SECTION */
 
@@ -369,26 +399,36 @@
 
 .dark-foot{
     background-color: rgb(78, 77, 77);
-    margin-top: 2px;
-    width: 100%;
-    height: 70px;
     display: flex;
     align-items: flex-end;
+    padding: 182px;
 }
 
+
 .foot-container{
-    width: 900px;
+    width: 1300px;
     height: 50px;
-    margin: 0 auto;
-    background-color: aqua;
 }
 
 
 .col-logo, .col-bottone{
-    background-color: rgb(235, 129, 235);
     width: 10%;
     padding-left: 10px;
-    border: 1px dashed black;
+}
+
+.col-bottone{
+    background-color:#7289DA;
+    border-radius: 31px;
+    width: 100px;
+    text-align: center;
+    padding: 9px;
+    color: white;
+}
+
+#separetor{
+    width: 1300px;
+    height: 1px;
+    background-color: #7289DA;
 }
 /* FOOTER */
 
