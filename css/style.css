@@ -183,7 +183,18 @@
     background-image: url(../img/wave.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    height: 100px;
  }
+
+ #wave-w{
+    width: 100%;
+    opacity: 0.1;
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+ }
+ 
 /* END 2ND - 4TH SECTION */
 
 
@@ -210,11 +221,11 @@
 /* 3RD SECTION */
 
 .third{
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(229, 229, 229);
     padding: 5px;
 }
 .wizard-section{
-    background-color: rgb(246, 246, 246);
+    background-color: rgb(229, 229, 229);
     height: 700px;
     max-width: 1300px;
     margin: 0 auto;
@@ -261,7 +272,7 @@
     margin-top: 70px;
 }
 .fgrey-section{
-    background-color:rgb(246, 246, 246);
+    background-color:rgb(229, 229, 229);
     margin: 0 auto;
     padding: 100px;
 }
